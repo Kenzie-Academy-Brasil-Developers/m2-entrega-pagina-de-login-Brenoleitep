@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="stylesheet" href="../styles/colors.css" />
+    <link rel="stylesheet" href="../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../styles/buttons.css" />
+    <title>login</title>
+  </head>
+  <body class="bgGradient fontFam">
+    <main class="main__login">
+        
+      <div class="form__div">
+        <h1 class="title1 colorTitle2">
+          <strong>Welcome,</strong> <br />
+          Glad to see You!
+        </h1>
+
+        <form>
+          <input type="text" placeholder="Email Adress" class="text1" />
+          <input type="text" placeholder="Passowrd" class="text1" />
+
+          <h2 class="colorSubtitle2 text1">Forgot Passowrd?</h2>
+
+          <button class="bgThird text1">Login</button>
+          <button
+            class="form__btnSign bgPrimary text1"
+            onclick="event.preventDefault()"
+          >
+            <a href="./pages/signUp.html">Sign Up</a>
+          </button>
+        </form>
+      </div>
+      <span class="text3 colorSubtitle2 span__divLogos">Or login with</span>
+      <div class="main__div--logos">
+        <img src="/assets/google.png" alt="Google" />
+        <img src="/assets/facebook.png" alt="Facebook" />
+      </div>
+
+      <span class="text3 colorSubtitle2 login__anyCount">
+        Don't have an account? <strong> Sign Up Now</strong>
+      </span>
+   
+    </main>
+
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
