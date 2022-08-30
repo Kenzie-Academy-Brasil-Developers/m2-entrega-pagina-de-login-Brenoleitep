@@ -9,7 +9,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    top: 250px;
+    top: 200px;
     position: absolute;
 }
 
@@ -32,7 +32,7 @@ main {
 
 .span__divLogos {
     position: absolute;
-    bottom: 190px;
+    bottom: 150px;
 }
 
 .main__div--logos {
@@ -42,7 +42,7 @@ main {
     justify-content: center;
     height: 75px;
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
 }
 
 .main__div--logos img {
