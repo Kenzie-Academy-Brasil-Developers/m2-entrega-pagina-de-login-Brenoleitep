@@ -25,7 +25,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* position: relative; */
+    
 }
 
 .form__div form input {
@@ -38,7 +38,7 @@ main {
 }
 
 .span__divLogos {
-    position: fixed;
+    
     bottom: 120px;
 }
 
@@ -48,7 +48,7 @@ main {
     width: 80%;
     justify-content: center;
     height: 75px;
-    position: absolute;
+    
     bottom: 40px;
 }
 
@@ -58,14 +58,12 @@ main {
 }
 
 .login__anyCount {
-    position: absolute;
+    
     bottom: 25px;
 }
 
 .modal {
-    /* min-height: 100vh; */
     z-index: 2;
-    /* position: fixed; */
     display: none;
     width: 95%;
     max-width: 620px;
@@ -118,7 +116,7 @@ main {
 
 .modalForgot__div {
     position: relative;
-    display: flex;
+    display: none;
     width: 95%;
     max-width: 620px;
     height: 580px;
