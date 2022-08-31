@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+
+.fontFam {
+    font-family: "Inter", sans-serif;
+}
+
+.bgGradient {
+    background: linear-gradient(to top, #343a40, #ced4da)
+}
+
+.bgPrimary {
+    background-color: #343a40;
+}
+
+.bgSecondary {
+    background-color: #ced4da;
+}
+
+.bgThird {
+    background-color: #ff6b6b;
+}
+
+.colorTitle {
+    color: #212529;
+}
+
+.colorTitle2 {
+    color: #fff;
+}
+
+.colorSubtitle1 {
+    color: #495057;
+}
+
+.colorSubtitle2 {
+    color: #fff;
+}
+
+.title1 {
+    font-size: 32px;
+}
+
+.title2 {
+    font-size: 26px;
+}
+
+.title3 {
+    font-size: 20px;
+}
+
+.text1 {
+    font-size: 16px;
+}
+
+.text2 {
+    font-size: 14px;
+}
+
+.text3 {
+    font-size: 12px;
+}
+
 main {
     display: flex;
     align-items: center;
